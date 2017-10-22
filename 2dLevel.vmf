@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "29"
+	"mapversion" "30"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "29"
+	"mapversion" "30"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -24610,35 +24610,12 @@ entity
 }
 entity
 {
-	"id" "2408"
-	"classname" "light_spot"
-	"_cone" "65"
-	"_exponent" "1"
-	"_inner_cone" "40"
-	"_light" "128 255 128 400"
-	"_lightHDR" "-1 -1 -1 1"
-	"_lightscaleHDR" "1"
-	"_quadratic_attn" "1"
-	"angles" "-90 0 0"
-	"pitch" "-90"
-	"style" "8"
-	"origin" "1081.75 -2874.87 -2951.75"
-	editor
-	{
-		"color" "0 208 241"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
 	"id" "2413"
 	"classname" "env_spark"
 	"angles" "0 0 0"
 	"Magnitude" "1"
 	"TrailLength" "1"
-	"origin" "1135.23 -2896 -3200.58"
+	"origin" "2064 -2912 -3200.58"
 	editor
 	{
 		"color" "0 206 231"
@@ -24940,13 +24917,124 @@ entity
 		"logicalpos" "[0 -6768]"
 	}
 }
+entity
+{
+	"id" "8560"
+	"classname" "env_lightglow"
+	"angles" "277 14 0"
+	"GlowProxySize" "3.0"
+	"HDRColorScale" "1.0"
+	"HorizontalGlowSize" "45"
+	"MaxDist" "2000"
+	"MinDist" "100"
+	"rendercolor" "128 128 255"
+	"VerticalGlowSize" "50"
+	"origin" "4142.2 -2236.8 -1145.17"
+	editor
+	{
+		"color" "255 128 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -6268]"
+	}
+}
+entity
+{
+	"id" "8574"
+	"classname" "light_spot"
+	"_cone" "45"
+	"_exponent" "1"
+	"_inner_cone" "30"
+	"_light" "255 255 255 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"angles" "-7 81 0"
+	"pitch" "-7"
+	"style" "11"
+	"origin" "3985.38 -3253.58 -1040.62"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5768]"
+	}
+}
+entity
+{
+	"id" "8692"
+	"classname" "light_spot"
+	"_cone" "45"
+	"_exponent" "1"
+	"_inner_cone" "30"
+	"_light" "255 255 255 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"angles" "-334 276 0"
+	"pitch" "-334"
+	"style" "0"
+	"origin" "5085.59 -2940.01 -985.71"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -5268]"
+	}
+}
+entity
+{
+	"id" "8910"
+	"classname" "env_lightglow"
+	"angles" "0 0 0"
+	"GlowProxySize" "4"
+	"HDRColorScale" "1.0"
+	"HorizontalGlowSize" "30"
+	"MaxDist" "2000"
+	"MinDist" "100"
+	"rendercolor" "255 255 0"
+	"VerticalGlowSize" "60"
+	"origin" "3537.16 -550.68 -928.475"
+	editor
+	{
+		"color" "255 128 0"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -4768]"
+	}
+}
+entity
+{
+	"id" "9222"
+	"classname" "light_spot"
+	"_cone" "60"
+	"_exponent" "5"
+	"_inner_cone" "50"
+	"_light" "255 0 0 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"angles" "-17 218 0"
+	"pitch" "-17"
+	"style" "7"
+	"origin" "2992.91 -2447.74 -1049.89"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 -4268]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[3665.61 -3210.7 -937.874]"
-		"look" "[2746.59 -1230.05 -1040.85]"
+		"position" "[2475.04 -2976.48 -1247.79]"
+		"look" "[3063.15 -903.764 -878.74]"
 	}
 }
 cordon
