@@ -1,0 +1,111 @@
+
+
+
+materialPath: C:\Program Files (x86)\Steam\steamapps\common\Half-Life 2\hl2\materials
+Loading C:\Users\debor\Desktop\hammer\3dfloor.vmf
+Could not locate 'GameData' key in c:\program files (x86)\steam\steamapps\common\half-life 2\hl2\gameinfo.txt
+fixing up env_cubemap materials on brush sides...
+0...1...2...3...4...5...6...7...8...9...10**** leaked ****
+Entity npc_headcrab_fast (378.00 513.49 53.00) leaked!
+Processing areas...done (0)
+Building Faces...done (0)
+FixTjuncs...
+PruneNodes...
+WriteBSP...
+done (0)
+Creating default LDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Creating default HDR cubemaps for env_cubemap using skybox materials:
+   skybox/sky_day01_01*.vmt
+ ! Run buildcubemaps in the engine to get the correct cube maps.
+Finding displacement neighbors...
+Finding lightmap sample positions...
+Displacement Alpha : 0...1...2...3...4...5...6...7...8...9...10
+Building Physics collision data...
+done (0) (32478 bytes)
+Placing detail props : 0...1...2...3...4...5...6...7...8...9...10
+Compacting texture/material tables...
+Reduced 186 texinfos to 165
+Reduced 4 texdatas to 3 (120 bytes to 81)
+Writing C:\Users\debor\Desktop\hammer\3dfloor.bsp
+0 seconds elapsed
+
+
+
+8 threads
+reading c:\users\debor\desktop\hammer\3dfloor.bsp
+reading c:\users\debor\desktop\hammer\3dfloor.prt
+LoadPortals: couldn't read c:\users\debor\desktop\hammer\3dfloor.prt
+
+
+
+[Reading texlights from 'lights.rad']
+[45 texlights parsed from 'lights.rad']
+
+Loading c:\users\debor\desktop\hammer\3dfloor.bsp
+No vis information, direct lighting only.
+1693 faces
+530302 square feet [76363576.00 square inches]
+0 Displacements
+0 Square Feet [0.00 Square Inches]
+3 direct lights
+0...1...2...3...4...5...6...7...8...9...10Build Patch/Sample Hash Table(s).....Done<0.0124 sec>
+0...1...2...3...4...5...6...7...8...9...10FinalLightFace Done
+0 of 0 (0% of) surface lights went in leaf ambient cubes.
+0...1...2...3...4...5...6...7...8...9...10Writing leaf ambient...done
+Ready to Finish
+
+Object names       Objects/Maxobjs  Memory / Maxmem  Fullness 
+------------       ---------------  ---------------  -------- 
+models                   1/1024           48/49152    ( 0.1%) 
+brushes                 85/8192         1020/98304    ( 1.0%) 
+brushsides             870/65536        6960/524288   ( 1.3%) 
+planes                1364/65536       27280/1310720  ( 2.1%) 
+vertexes              2444/65536       29328/786432   ( 3.7%) 
+nodes                 1015/65536       32480/2097152  ( 1.5%) 
+texinfos               165/12288       11880/884736   ( 1.3%) 
+texdata                  3/2048           96/65536    ( 0.1%) 
+dispinfos                0/0               0/0        ( 0.0%) 
+disp_verts               0/0               0/0        ( 0.0%) 
+disp_tris                0/0               0/0        ( 0.0%) 
+disp_lmsamples           0/0               0/0        ( 0.0%) 
+faces                 1693/65536       94808/3670016  ( 2.6%) 
+hdr faces                0/65536           0/3670016  ( 0.0%) 
+origfaces              419/65536       23464/3670016  ( 0.6%) 
+leaves                1017/65536       32544/2097152  ( 1.6%) 
+leaffaces             2106/65536        4212/131072   ( 3.2%) 
+leafbrushes            525/65536        1050/131072   ( 0.8%) 
+areas                    2/256            16/2048     ( 0.8%) 
+surfedges             9671/512000      38684/2048000  ( 1.9%) 
+edges                 4966/256000      19864/1024000  ( 1.9%) 
+LDR worldlights          3/8192          264/720896   ( 0.0%) 
+HDR worldlights          0/8192            0/720896   ( 0.0%) 
+leafwaterdata            0/32768           0/393216   ( 0.0%) 
+waterstrips            151/32768        1510/327680   ( 0.5%) 
+waterverts               0/65536           0/786432   ( 0.0%) 
+waterindices          2046/65536        4092/131072   ( 3.1%) 
+cubemapsamples           0/1024            0/16384    ( 0.0%) 
+overlays                 0/512             0/180224   ( 0.0%) 
+LDR lightdata         [variable]     1810684/0        ( 0.0%) 
+HDR lightdata         [variable]           0/0        ( 0.0%) 
+visdata               [variable]           0/16777216 ( 0.0%) 
+entdata               [variable]        1321/393216   ( 0.3%) 
+LDR ambient table     1017/65536        4068/262144   ( 1.6%) 
+HDR ambient table     1017/65536        4068/262144   ( 1.6%) 
+LDR leaf ambient       591/65536       16548/1835008  ( 0.9%) 
+HDR leaf ambient      1017/65536       28476/1835008  ( 1.6%) 
+occluders                0/0               0/0        ( 0.0%) 
+occluder polygons        0/0               0/0        ( 0.0%) 
+occluder vert ind        0/0               0/0        ( 0.0%) 
+detail props          [variable]           1/12       ( 8.3%) 
+static props          [variable]           1/12       ( 8.3%) 
+pakfile               [variable]      211532/0        ( 0.0%) 
+physics               [variable]       32478/4194304  ( 0.8%) 
+physics terrain       [variable]           2/1048576  ( 0.0%) 
+
+Level flags = 0
+
+Total triangle count: 4611
+Writing c:\users\debor\desktop\hammer\3dfloor.bsp
+1 second elapsed
