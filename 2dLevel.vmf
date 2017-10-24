@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "6412"
-	"mapversion" "37"
+	"mapversion" "41"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "37"
+	"mapversion" "41"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -24669,7 +24669,7 @@ entity
 	"angles" "-90 0 0"
 	"pitch" "-90"
 	"style" "5"
-	"origin" "3546.86 -1587.86 -2562.25"
+	"origin" "3600 -1504 -2288"
 	editor
 	{
 		"color" "157 102 0"
@@ -24716,7 +24716,7 @@ entity
 	"_quadratic_attn" "1"
 	"angles" "-21 37 0"
 	"pitch" "-21"
-	"origin" "1848.77 -2828.7 -2230"
+	"origin" "1872 -3040 -2272"
 	editor
 	{
 		"color" "157 102 0"
@@ -24972,7 +24972,7 @@ entity
 	"_quadratic_attn" "1"
 	"angles" "-56 335.5 90"
 	"pitch" "-56"
-	"origin" "1639.23 -1600 -3084.58"
+	"origin" "1639.23 -1616 -3072"
 	editor
 	{
 		"color" "0 176 177"
@@ -25051,7 +25051,7 @@ entity
 	"_quadratic_attn" "1"
 	"angles" "-70 0 0"
 	"pitch" "-70"
-	"origin" "2895.23 -1500 -3024.58"
+	"origin" "2895.23 -1516 -3012"
 	editor
 	{
 		"color" "0 220 229"
@@ -25716,7 +25716,7 @@ entity
 	"_quadratic_attn" "1"
 	"angles" "-15 169 0"
 	"pitch" "-15"
-	"style" "5"
+	"style" "1"
 	"origin" "3504 -3152 -448"
 	editor
 	{
@@ -25726,13 +25726,88 @@ entity
 		"logicalpos" "[500 2000]"
 	}
 }
+entity
+{
+	"id" "14593"
+	"classname" "npc_stalker"
+	"angles" "0 0 0"
+	"BeamPower" "Low"
+	"disablereceiveshadows" "0"
+	"disableshadows" "0"
+	"hintlimiting" "0"
+	"ignoreunseenenemies" "0"
+	"physdamagescale" "1.0"
+	"renderamt" "255"
+	"rendercolor" "255 255 255"
+	"renderfx" "0"
+	"rendermode" "0"
+	"sleepstate" "1"
+	"spawnflags" "0"
+	"targetname" "Witch"
+	"wakeradius" "10"
+	"wakesquad" "0"
+	"origin" "3639.98 -457.291 -707.292"
+	editor
+	{
+		"color" "0 200 200"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 3000]"
+	}
+}
+entity
+{
+	"id" "14678"
+	"classname" "light_spot"
+	"_cone" "45"
+	"_exponent" "1"
+	"_inner_cone" "30"
+	"_light" "128 128 255 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"angles" "-90 0 0"
+	"pitch" "-90"
+	"style" "8"
+	"origin" "3184 -3104 -2016"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 3500]"
+	}
+}
+entity
+{
+	"id" "14708"
+	"classname" "light_spot"
+	"_cone" "45"
+	"_exponent" "1"
+	"_inner_cone" "30"
+	"_light" "255 128 64 200"
+	"_lightHDR" "-1 -1 -1 1"
+	"_lightscaleHDR" "1"
+	"_quadratic_attn" "1"
+	"angles" "-3 17 0"
+	"pitch" "-3"
+	"style" "5"
+	"origin" "1888 -2896 -832"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[500 3500]"
+	}
+}
 cameras
 {
 	"activecamera" "0"
 	camera
 	{
-		"position" "[1998.24 -3000.19 -672.591]"
-		"look" "[4166.75 -2765.69 -528.48]"
+		"position" "[3504 -2536 266.791]"
+		"look" "[3504 -350.093 266.791]"
 	}
 }
 cordon
